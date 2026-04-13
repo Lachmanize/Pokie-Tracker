@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Machine body -->
+  <rect x="4" y="6" width="46" height="52" rx="8" ry="8" fill="#1e3a6e"/>
+  <!-- Screen window -->
+  <rect x="10" y="13" width="34" height="22" rx="4" ry="4" fill="#ffffff"/>
+  <!-- Three $ signs -->
+  <text x="17" y="31" font-family="Arial, sans-serif" font-size="14" font-weight="900" fill="#1e3a6e" text-anchor="middle">$</text>
+  <text x="27" y="31" font-family="Arial, sans-serif" font-size="14" font-weight="900" fill="#1e3a6e" text-anchor="middle">$</text>
+  <text x="37" y="31" font-family="Arial, sans-serif" font-size="14" font-weight="900" fill="#1e3a6e" text-anchor="middle">$</text>
+  <!-- Coin slot -->
+  <rect x="15" y="42" width="24" height="5" rx="2.5" ry="2.5" fill="#0d2540"/>
+  <!-- Base ledge -->
+  <rect x="8" y="52" width="38" height="6" rx="3" ry="3" fill="#162d56"/>
+  <!-- Lever post -->
+  <rect x="50" y="10" width="6" height="22" rx="3" ry="3" fill="#162d56"/>
+  <!-- Lever ball -->
+  <circle cx="53" cy="8" r="7" fill="#e84b3a"/>
+</svg>
