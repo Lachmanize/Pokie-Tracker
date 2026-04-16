@@ -51,8 +51,7 @@
   <div class="slot-machine-shell" aria-hidden="true">
     <div class="slot-topper">
       <div class="slot-topper-badge">POKIE TRACKER</div>
-      <div class="slot-topper-jackpot">LIVE JACKPOT METER</div>
-      <div class="slot-topper-stars"><span>✦</span><span>✦</span><span>✦</span></div>
+      <div class="slot-topper-jackpot">LIVE POKIE LOSS METER</div>
     </div>
     <div class="slot-machine-side slot-machine-side--left">
       <span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span><span class="slot-side-light"></span>
@@ -65,36 +64,30 @@
     </div>
     <div class="slot-machine-screen">
       <div class="slot-screen-header">
-        <div class="slot-machine-title"><span>Live Meter</span></div>
-        <div class="slot-screen-payline"><span>★</span><span>MAX WIN</span><span>★</span></div>
       </div>
       <div class="counter-main" id="live-counter" aria-live="polite" aria-label="Total losses counter">
         <div class="counter-cluster" id="slot-dollars"></div><div class="counter-cents" id="slot-cents"></div>
       </div>
       <div class="slot-screen-footer">
         <div class="counter-label">lost to pokies machines<span class="blink" aria-hidden="true">_</span></div>
-        <div class="slot-status-row">
-          <span class="slot-status-pill slot-status-pill--red">BET</span>
-          <span class="slot-status-pill slot-status-pill--green">WIN LINE ACTIVE</span>
-          <span class="slot-status-pill slot-status-pill--amber">SPINNING</span>
-        </div>
       </div>
       <div class="counter-projection" id="projection-line" hidden>Projected full-year total: <strong id="projection-value">$0</strong></div>
     </div>
     <div class="slot-machine-base-row">
-      <div class="slot-machine-panel">
-        <div class="slot-panel-display">CREDIT METER</div>
-        <div class="slot-panel-buttons">
-          <span class="slot-btn slot-btn--red"></span>
-          <span class="slot-btn slot-btn--amber"></span>
-          <span class="slot-btn slot-btn--green"></span>
-          <span class="slot-btn slot-btn--blue"></span>
-        </div>
+      <button class="slot-control slot-control--button" type="button">MENU</button>
+      <div class="slot-control slot-control--display slot-control--credit">
+        <span class="slot-control-label">Avg pokie loss per player per FY</span>
+        <span class="slot-control-value">—</span>
       </div>
-      <div class="slot-machine-lever" aria-hidden="true">
-        <span class="slot-lever-arm"></span>
-        <span class="slot-lever-ball"></span>
+      <div class="slot-control slot-control--display">
+        <span class="slot-control-label">WIN</span>
+        <span class="slot-control-value">&nbsp;</span>
       </div>
+      <div class="slot-control slot-control--display">
+        <span class="slot-control-label">BET</span>
+        <span class="slot-control-value">&nbsp;</span>
+      </div>
+      <button class="slot-control slot-control--button" type="button">$1</button>
     </div>
     <div class="counter-machine-base">
       <span class="counter-base-knob" aria-hidden="true"></span>
